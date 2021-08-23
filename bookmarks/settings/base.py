@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(os.path.join(__file__
 SECRET_KEY = '@%9e3+255u5426xdy#a&-p!l6=)4w(jccj1j+2poh*@%&@cv8i'
 
 
-ALLOWED_HOSTS = ['1625-45-9-137-11.ngrok.io', 'moja-witryna.pl', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['1625-45-9-137-11.ngrok.io', 'patryk507.pythonanywhere.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
