@@ -14,5 +14,7 @@ DATABASES = {
         'NAME': 'postgres',
         'USER': 'sgpostgres',
         'PASSWORD': '976vxJV9%5ENR4wMNt',
+        'HOST': 'SG-Bookmarks-2277-pgsql-master.servers.mongodirector.com',
+        'PORT': '5432',
     }
 }
