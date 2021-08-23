@@ -127,8 +127,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
-STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
-STATIC_URL = '/static/'
 
 LOGIN_REDIRECT_URL = 'dashboard'
 LOGIN_URL = 'login'
@@ -137,8 +135,11 @@ LOGOUT_URL = 'logout'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media').replace('\\', '/')
-MEDIA_URL = '/media/'
+STATIC_URL = '/static/'
+STATIC_ROOT = (os.path.join(BASE_DIR, "static"))
+
+MEDIA_ROOT = os.path.join(BASE_DIR, "../media/")
+MEDIA_URL = '/static/media/'
 
 from django.urls import reverse_lazy
 
