@@ -11,8 +11,8 @@ ALLOWE_HOSTS = ['www.stronadlaciebie.online', 'stronadlaciebie.online']
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'bookmarks',
-        'USER': 'postgres',
-        'PASSWORD': 'skinner159',
+        'NAME': 'Bookmarks',
+        'USER': 'sgpostgres',
+        'PASSWORD': '976vxJV9^NR4wMNt',
     }
 }
