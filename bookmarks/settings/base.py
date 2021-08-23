@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'images.apps.ImagesConfig',
     'sorl.thumbnail',
     'actions.apps.ActionsConfig',
+    'whitenoise.storage.CompressedManifestStaticFilesStorage',
 ]
 
 MIDDLEWARE = [
