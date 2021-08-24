@@ -139,7 +139,7 @@ STATIC_URL = '/static/'
 STATIC_ROOT = (os.path.join(BASE_DIR, "static"))
 
 MEDIA_ROOT = os.path.join(BASE_DIR, "../media/")
-MEDIA_URL = '/media/'
+MEDIA_URL = '/media/static'
 
 from django.urls import reverse_lazy
 
